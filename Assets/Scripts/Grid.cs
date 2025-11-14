@@ -123,6 +123,7 @@ public class Grid : MonoBehaviour
         return neighbourCount;
     }
 
+    //Make new rules for game
     private void ApplyRules(int x, int y, int neighbours)
     {
         // Check if cell is alive or dead before applying rules.
